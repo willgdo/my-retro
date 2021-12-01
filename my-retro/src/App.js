@@ -1,14 +1,11 @@
 import './App.css';
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import Header from './Header';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Typography variant="body2">
-        My Retro
-      </Typography>
+      <Header/>
     </div>
   );
 }
